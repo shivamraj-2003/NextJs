@@ -9,3 +9,4 @@ export async function POST(request: Request) {
   const name = data.name || 'Guest';
   return NextResponse.json({ received: data , greeting: `Hello, ${name}!` });
 }
+
